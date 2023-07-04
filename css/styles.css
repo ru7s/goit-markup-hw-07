@@ -84,6 +84,14 @@ background-color:var(--white-color);}
   text-decoration: none;
   margin-right: 76px;
 }
+@media screen and (max-width:767px) {
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+}
 
 .link{text-decoration: none;}
 
@@ -242,6 +250,31 @@ font-style: normal;
   .section-but:hover,.section-but:focus{
     background-color:#404BBF ;
   }
+  .menu-open-btn{
+    padding: 0;
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .btn-hamburger{
+    stroke: var(--background-color);
+    filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.25));
+  }
+  .mob-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white-color);
+    padding: 80px 24px 40px 40px;
+    transform: translateY(100%);
+    transition: transform var(--transition);
+  }
+  
 
    /*section-2*/
    .values-icon-container{
