@@ -274,7 +274,30 @@ font-style: normal;
     transform: translateY(100%);
     transition: transform var(--transition);
   }
+  .mob-menu.is-open{
+    transform: translateY(0);
+
+  }
+  .mob-menu .close-button{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    margin-left: auto;
+    background-color: inherit;
+  }
+  .mob-menu-wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 364px;
+    margin:0 auto;
+  }
   
+  .mob-menu-item:not(last-child){
+    margin-bottom: 40px;
+  }
+
 
    /*section-2*/
    .values-icon-container{
