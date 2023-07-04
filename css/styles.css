@@ -293,11 +293,39 @@ font-style: normal;
     width: 364px;
     margin:0 auto;
   }
-  
+
   .mob-menu-item:not(last-child){
     margin-bottom: 40px;
   }
-
+  .mob-menu-link{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0,02em;
+    display: block;
+    color: var(--background-color);
+    transition: color var(--transition);
+  }
+.mob-menu-link:focus,.mob-menu-link.current{
+  color: var(--hover-background);
+}
+.mob-social-container{
+  max-width: 328px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.mob-menu-address-link{
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+  margin-top: 40px;
+  transition: color var(--transition);
+}
 
    /*section-2*/
    .values-icon-container{
