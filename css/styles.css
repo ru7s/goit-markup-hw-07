@@ -283,6 +283,21 @@ display: flex;
   margin-top: 48px;
 }
 
+@media screen and (max-width:416px){
+.mob-menu-tel-link{
+  font-size: 26px;
+}
+}
+
+.mob-menu-tel-link{
+  font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.11;
+ letter-spacing: 0.02em;
+ color: var(--blu-color);
+}
+
 .mob-menu-address-link {
   display: block;
   font-style: normal;
