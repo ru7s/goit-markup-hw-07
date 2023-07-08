@@ -85,7 +85,7 @@ background-color:var(--white-color);}
   margin-right: 76px;
 }
 @media screen and (max-width:767px) {
-.header-container{
+.header-item{
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
