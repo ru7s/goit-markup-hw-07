@@ -257,7 +257,7 @@ display: flex;
   margin: 0 auto;
 }
 
-.mob-menu-item:not(last-child) {
+.mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
 
@@ -265,7 +265,7 @@ display: flex;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0,02em;
   display: block;
   color: var(--background-color);
   transition: color var(--transition);
