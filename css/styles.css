@@ -84,7 +84,7 @@ background-color:var(--white-color);}
   text-decoration: none;
   margin-right: 76px;
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
 .header-item{
   display: flex;
   justify-content: space-between;
