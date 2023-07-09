@@ -1,0 +1,158 @@
+.container {
+  max-width: 768px;
+}
+
+.logo {
+  margin-right: 120px;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  display: block;
+  font-style: normal;
+  margin-left: auto;
+}
+
+.section-one {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+  max-width: 768px;
+  height: 436px;
+}
+
+.mob-menu {
+  display: none;
+}
+
+.menu-open-btn {
+  display: none;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .section-one {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero-img.jpg);
+  }
+}
+
+.section-effective{
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.section-but {
+  margin-top: 36px;
+}
+
+.section-img {
+  text-align: start;
+}
+
+.section-img-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: unset;
+  gap: 72px 24px;
+}
+
+.section-work-picture {
+  width: 100%;
+  width: calc((100% - 24px) / 2);
+}
+
+.section-format-corect {
+  padding: 0 16px;
+  max-width: 584px;
+}
+
+.section-format-list{
+  display: flex;
+  flex-direction: unset;
+  flex-wrap: wrap;
+  gap: 64px 24px;
+  justify-content: center;
+}
+
+.section-picter {
+  width: 100%;
+  width: calc((100% - 24px) / 2);
+}
+
+.customers {}
+
+.container{
+  max-width: 584px;
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+}
+
+.customers-item {
+  width: 100%;
+  width: calc((100% - 48px) / 3);
+  height: 88px;
+}
+
+.modal {
+  width: 100%;
+  max-width: 408px;
+}
+
+.footer-item {
+  max-width: 584px;
+
+}
+
+@media screen and (max-width: 1157px) {
+  .footer-item {
+    gap: 72px 24px;
+    justify-content: start;
+  }
+}
+
+.logo-footer-item {
+  text-align: start;
+}
+
+.footer-social-item {
+  margin: 0;
+}
+
+.footer-social-text {
+  text-align: start;
+}
+
+.form-footer {
+  gap: 24px;
+}
+
+.form-footer-text {
+  text-align: start;
+}
+
+.footer-label {
+  width: 264px;
+}
+
+.footer-button {
+  margin: 0;
+}
