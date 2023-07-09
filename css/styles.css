@@ -84,14 +84,7 @@ background-color:var(--white-color);}
   text-decoration: none;
   margin-right: 76px;
 }
-@media screen and (max-width: 767px) {
-.header-item{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-}
+
 
 .link{text-decoration: none;}
 
