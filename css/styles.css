@@ -190,12 +190,11 @@ display: flex;
     gap: 24px;
     justify-content: center;
 }
-/*
 .header-item{
   display: flex;
   align-items: center;
 }
-*/
+
 /*----MOB-MENU----*/
 .menu-open-btn {
   padding: 0;
