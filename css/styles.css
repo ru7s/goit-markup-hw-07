@@ -38,12 +38,13 @@
     max-width: 768px;
   }
 }
-
+/*
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
   }
 }
+*/
 .visually-hidden{
   position: absolute;
   width: 1px;
