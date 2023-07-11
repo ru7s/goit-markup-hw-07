@@ -276,7 +276,7 @@ display: flex;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: fill 250ms $timingFunction;
+  transition: fill 250ms timingFunction;
 }
 
 /* ЗАДАЄМО СТИЛІ ДО menu-container  */
