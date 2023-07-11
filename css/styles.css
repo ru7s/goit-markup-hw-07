@@ -395,8 +395,7 @@ font-style: normal;
    /*section-2*/
    .values-icon-container{
     display: none;
-    display: flex;
-    align-items: center;
+     align-items: center;
     justify-content: center;
     height: 112px;
     background-color:var(--light-white);

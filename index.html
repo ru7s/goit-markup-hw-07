@@ -19,6 +19,9 @@
     <style type="text/css"></style>
   </head>
   <body>
+    <!--
+      
+    -->
     <header class="header-class">
      <div class="container header-item"> 
       <nav class="nav-item">
@@ -41,7 +44,55 @@
         </ul>
       </address>
       <!----MOB-MENU---->
-      <button type="button" class="menu-open-btn js-open-menu" aria-expanded="false">
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="button-toggle js-close-menu">
+          <svg class="button-toggle__icone">
+            <use href="./images/symbol-defs.svg#close"></use>
+          </svg>
+        </button>
+      
+        <nav>
+          <ul class="mob-menu">
+            <li><a href="./index.html" class="current">Студія</a></li>
+            <li><a href="./portfolio.html" class="current">Портфоліо</a></li>
+            <li><a href="" class="current">Контакти</a></li>
+          </ul>
+        </nav>
+      
+        <div class="mob-menu__contacts">
+          <a href="tel:+380961111111" class="tel">
+            <p>+38 096 111 11 11</p>
+          </a>
+      
+          <a href="mailto:info@devstudio.com" lang="en" class="email">
+            <p>info@devstudio.com</p>
+          </a>
+        </div>
+      
+        <div>
+          <ul class="social">
+            <li>
+              <a href="" class="soc">Instagram</a>
+            </li>
+      
+            <li>
+              <a href="" class="soc">Twitter</a>
+            </li>
+      
+            <li>
+              <a href="" class="soc">Facebook</a>
+            </li>
+      
+            <li>
+              <a href="" class="soc">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      
+     <!--
+<button type="button" class="menu-open-btn js-open-menu" aria-expanded="false">
         <svg class="btn-hamburger" width="32" height="22">
           <use href="./images/icons.svg#icon-mobile-menu">
           </use>
@@ -94,6 +145,9 @@
         </ul>
       </div>
      </div>
+     -->
+
+     
     </header>
     <!--main-->
     <main>
@@ -189,7 +243,8 @@
 <h3 class="features-head">Mark Guerrero</h3>
 <p class="position-text">Product Designer</p>
 <ul class="team-company list">
-  <li class="company-list"><a href="#" class="social-list-link" target="_blank" rel="noopener noreferrer"><svg class="team-social_icon" width="16" height="16"><use href="./images/icons.svg#icon-instagram-2"></use></svg></a></li>
+  <li class="company-list"><a href="#" class="social-list-link" target="_blank" rel="noopener noreferrer"><svg class="team-social_icon" width="16" height="16">
+    <use href="./images/icons.svg#icon-instagram-2"></use></svg></a></li>
   <li class="company-list"><a href="#" class="social-list-link" target="_blank" rel="noopener noreferrer"><svg class="team-social_icon" width="16" height="16">
     <use href="./images/icons.svg#icon-twitter-1"></use>
   </svg></a></li>
