@@ -307,12 +307,6 @@ display: flex;
   margin-top: 48px;
 }
 
-@media screen and (max-width:416px){
-.mob-menu-tel-link{
-  font-size: 26px;
-}
-}
-
 .mob-menu-tel-link{
   font-style: normal;
  font-weight: 700;
@@ -737,10 +731,20 @@ color: var(--dark-blu);
   display: flex;
   align-items: baseline;
 }
+@media screen and (max-width: 767px) {
+  .footer-container {
+    margin-bottom: 72px;
+  }
+}
 
 .footer-contanier {
   width: 264px;
   margin-right: 120px;
+}
+@media screen and (max-width: 767px) {
+  .footer-social-container {
+    margin-bottom: 72px;
+  }
 }
 
 .footer-social-container {
