@@ -44,7 +44,7 @@
     max-width: 1158px;
   }
 }
-*/
+
 .visually-hidden{
   position: absolute;
   width: 1px;
@@ -343,9 +343,9 @@ display: flex;
 /*address*/
 
 .address{
-margin-left: auto;
-font-style: normal;
+display: none;
  }
+
 
 /*section1*/
 
