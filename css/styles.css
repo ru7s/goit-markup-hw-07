@@ -179,7 +179,7 @@ display: flex;
 }
 
 .address-list{
-  display: flex;
+  display: none;
     gap: 40px;
 }
 
@@ -338,8 +338,10 @@ display: flex;
 /*address*/
 
 .address{
+
 display: none;
- }
+ 
+}
 
 
 /*section1*/
