@@ -168,6 +168,12 @@ transition: color var(--transition)
 .list-b:focus{
   color: var(--dark-blu);
 }
+@media screen and(max-width:768px) {
+  .header-menu-list{
+    display: none;
+  }
+  
+}
 
 .header-menu-list{
     display: flex;
