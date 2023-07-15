@@ -270,9 +270,6 @@ display: flex;
 .mob-menu-wraper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  max-width: 364px;
   margin: 0 auto;
 }
 
