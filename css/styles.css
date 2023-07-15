@@ -315,6 +315,10 @@ display: flex;
   fill: var(--light-white);
   transition:background-color var(--transition);
 }
+.social-list_item-link:hover,
+.social-list_item-link:focus {
+  background-color: var(--hover-background);
+}
 
 
 .mob-menu-tel-link{
