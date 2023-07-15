@@ -722,7 +722,7 @@ color: var(--dark-blu);
 }
 
 .footer-item {
-  display: flex;
+ 
   align-items: baseline;
 }
 @media screen and (max-width: 767px) {
@@ -1007,7 +1007,7 @@ svg.privacy-icon{
 }
 
 .form-footer{
-  display: flex;
+ 
   gap: 24px;
 }
 
