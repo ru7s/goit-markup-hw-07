@@ -40,6 +40,12 @@
 .menu-open-btn {
   display: none;
 }
+@media screen and (min-width:768px){
+  .menu-open-btn{
+    display: none;
+  }
+  
+}
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
