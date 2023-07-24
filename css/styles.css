@@ -257,6 +257,7 @@ body {
   max-width: 428px;
   position: relative;
   height: 100%;
+  gap: 10px;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -371,7 +372,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img-mobile.jpg);
+    url(../images/hero-img.jpg);
   max-width: 428px;
   background-repeat: no-repeat;
   background-position: center;
@@ -399,7 +400,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-img-tablet.jpg);
+      url(../images/hero-tablet-x2.jpg);
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -1169,7 +1170,8 @@ svg.team-costumers_icon {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: calc(100% - 36px);
+  max-width: 408px;
   min-height: 584px;
   padding: 72px 24px 24px 24px;
   background: #fcfcfc;
